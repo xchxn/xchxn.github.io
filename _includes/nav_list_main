@@ -12,6 +12,18 @@
       </li>
       <li>
         <!--span 태그로 카테고리들을 크게 분류 ex) C/C++/C#-->
+        <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
+        
+        <span class="nav__sub-title">Algorithm</span>
+        <ul>
+            {% for category in site.categories %}
+                    {% if category[0] == "sort" %}
+                        <li><a href="/categories/sort" class="">sort ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+        </ul>
+        
+        
         <span class="nav__sub-title">C/C++/C#</span>
             <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
             <ul>
