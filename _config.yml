@@ -20,7 +20,7 @@ title                    : "Chan's Blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Chan"
-description              : "공부 + 잡덕질"
+description              : "작은 것부터 하나씩 쌓아 올리는 개발 블로그"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -108,11 +108,11 @@ author:
   avatar           : "/assets/img/profile1.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "코딩 잘하고 싶은 그냥 어느 컴공과 학생"
   location         : "Jeonju, South Korea"
-  email            : #"seokregi@gmail.com"
+  email            : "seokregi@gmail.com"
   links:
-    #- label: "Email"
-    #  icon: "fas fa-fw fa-envelope-square"
-    #  url: "mailto:seokregi@gmail.com"
+    - label: "Email"
+     icon: "fas fa-fw fa-envelope-square"
+     url: "mailto:seokregi@gmail.com"
     #- label: "Website"
     #  icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -147,9 +147,9 @@ footer:
     #- label: "Bitbucket"
     #  icon: "fab fa-fw fa-bitbucket"
       # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/xeokchan"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   url: "https://instagram.com/xeokchan"
 
 
 # Reading Files
