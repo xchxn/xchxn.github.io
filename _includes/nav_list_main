@@ -3,57 +3,51 @@
 {% assign sum = site.posts | size %}
 
 <nav class="nav__list">
-  <input id="ac-toc" name="accordion-toc" type="checkbox" />
-  <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label }}</label>
-  <ul class="nav__items" id="category_tag_menu">
-      <!--전체 글 수-->
-      <li>
-            📂 <span style="font-family:'pretendard';">전체 글 수</style> <span style="font-family:'pretendard';">{{sum}}</style> <span style="font-family:'pretendard';">개</style> 
-      </li>
-      <li>
-        <!--span 태그로 카테고리들을 크게 분류 ex) C/C++/C#-->
-        <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
-        
-        <span class="nav__sub-title">Algorithm</span>
-        <ul>
-            {% for category in site.categories %}
-                    {% if category[0] == "sort" %}
-                        <li><a href="/categories/sort" class="">sort ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-        </ul>
-        
-        
-        <span class="nav__sub-title">C/C++/C#</span>
+    <input id="ac-toc" name="accordion-toc" type="checkbox" />
+    <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label }}</label>
+    <ul class="nav__items" id="category_tag_menu">
+        <!--전체 글 수-->
+        <li>
+            📂 <span style="font-family:'pretendard';">전체 글 수</style> <span style="font-family:'pretendard';">{{sum}}
+                    </style> <span style="font-family:'pretendard';">개</style>
+        </li>
+        <li>
+            <!--span 태그로 카테고리들을 크게 분류 ex) C/C++/C#-->
             <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
+
+            <span class="nav__sub-title">Algorithm</span>
             <ul>
-                <!--Cpp 카테고리 글들을 모아둔 페이지인 /categories/cpp 주소의 글로 링크 연결-->
-                <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
                 {% for category in site.categories %}
-                    {% if category[0] == "cpp" %}
-                        <li><a href="/categories/cpp" class="">C ++ ({{category[1].size}})</a></li>
-                    {% endif %}
+                {% if category[0] == "sort" %}
+                <li><a href="/categories/sort" class="">sort ({{category[1].size}})</a></li>
+                {% endif %}
                 {% endfor %}
             </ul>
 
-        <span class="nav__sub-title">JAVA</span>
-        <ul>
-            {% for category in site.categories %}
-                    {% if category[0] == "java" %}
-                        <li><a href="/categories/java" class="">java ({{category[1].size}})</a></li>
-                    {% endif %}
+            <span class="nav__sub-title">Git</span>
+            <ul>
+                {% for category in site.categories %}
+                {% if category[0] == "git" %}
+                <li><a href="/categories/git" class="">git ({{category[1].size}})</a></li>
+                {% endif %}
                 {% endfor %}
-        </ul>
-
-        <span class="nav__sub-title">PYTHON</span>
-        <ul>
-            {% for category in site.categories %}
-                    {% if category[0] == "python" %}
-                        <li><a href="/categories/python" class="">python ({{category[1].size}})</a></li>
-                    {% endif %}
+            </ul>
+            
+            <span class="nav__sub-title">Language</span>
+            <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
+            <ul>
+                <!--Cpp 카테고리 글들을 모아둔 페이지인 /categories/cpp 주소의 글로 링크 연결-->
+                <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시-->
+                {% for category in site.categories %}
+                {% if category[0] == "language" %}
+                <li><a href="/categories/language" class="">language ({{category[1].size}})</a></li>
+                {% endif %}
                 {% endfor %}
-        </ul>
+            </ul>
 
+            
+
+            <!-- 
         <span class="nav__sub-title">etc...</span>
         <ul>
             {% for category in site.categories %}
@@ -75,8 +69,8 @@
                         <li><a href="/categories/memo" class="">memo ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
-        </ul>
+        </ul> -->
 
-      </li>
-  </ul>
+        </li>
+    </ul>
 </nav>
