@@ -39,6 +39,7 @@ header:
 
 # Site footer
 footer:
+  block: minimal
   copyright:
     notice: '© {year} Me. This work is licensed under {license}'
     license:
@@ -46,11 +47,13 @@ footer:
       allow_derivatives: false
       share_alike: true
       allow_commercial: false
+  show_translations: true
 
 # Localization
 locale:
   date_format: 'Jan 2, 2006'
   time_format: '3:04 PM'
+  address_format: ko-kr
 
 # Site features
 features:

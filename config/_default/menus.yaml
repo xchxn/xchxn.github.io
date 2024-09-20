@@ -60,11 +60,11 @@ main:
     url: /#others
     identifier: others
     weight: 14
-  - name: etc
+  - name: Etc...
     parent: others
     url: others/etc/
     weight: 14
-  - name: random
+  - name: Random
     parent: others
     url: others/random/
     weight: 14

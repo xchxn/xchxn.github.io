@@ -9,8 +9,8 @@ en:
   #contentDir: content/en
 
 # Uncomment the lines below to configure your website in a second language.
-kr:
-  languageCode: kr
+ko:
+  languageCode: ko-kr
 
 #zh:
 #  languageCode: zh-Hans
