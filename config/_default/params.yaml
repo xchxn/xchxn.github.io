@@ -35,7 +35,7 @@ header:
     show_search: true
     show_theme_chooser: true
     logo:
-      text: "Your Name"
+      text: "정석찬 포트폴리오"
 
 # Site footer
 footer:
