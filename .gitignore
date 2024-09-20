@@ -1,7 +1,9 @@
 # Hugo local build files
 /public
-
+public/
 /resources
+
+/resources/
 
 .hugo_build.lock
 
