@@ -34,14 +34,14 @@ main:
     url: /#projects
     identifier: projects
     weight: 12
-  - name: 풀스택
-    parent: projects
-    url: projects/fullstack/
-    weight: 12
-  - name: 백엔드
-    parent: projects
-    url: projects/backend/
-    weight: 12
+  # - name: 풀스택
+  #   parent: projects
+  #   url: projects/fullstack/
+  #   weight: 12
+  # - name: 백엔드
+  #   parent: projects
+  #   url: projects/backend/
+  #   weight: 12
 
   - name: 포스팅
     url: /#postings
