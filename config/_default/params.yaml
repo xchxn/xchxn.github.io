@@ -36,6 +36,7 @@ header:
     show_theme_chooser: true
     logo:
       text: "정석찬 포트폴리오"
+      filename: "logo.png"
 
 # Site footer
 footer:
