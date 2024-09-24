@@ -4,15 +4,15 @@
   #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: About
+  - name: 소개
     url: /
     identifier: about
     weight: 10
-  - name: Profile
+  - name: 프로필
     parent: about
     url: /profile/
     weight: 10
-  - name: Contact
+  - name: 연락
     parent: about
     url: /contact/
     weight: 10
