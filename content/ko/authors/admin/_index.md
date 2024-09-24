@@ -20,11 +20,11 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Web Developer
+role: 웹 개발자
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: JBNU
+  - name: 전북대학교
     url: https://csai.jbnu.ac.kr/
 
 # Social network links
@@ -49,14 +49,14 @@ profiles:
     url: https://discordapp.com/users/545154022575833098
 
 interests:
-  - Backend Web Developement
-  - Fullstack Web Engineer
-  - Blockchain technology
-  - Web 3.0 and Metaverse
+  - 백엔드 웹 개발
+  - 풀스택 웹 개발
+  - 블록체인
+  - 웹 3.0 & 메타버스
 
 education:
-  - area: BS IT Information Engineering
-    institution: Jeonbuk National University
+  - area: IT정보공학과 학사 졸업 예정
+    institution: 전북대학교
     date_start: 2019-03-04
     date_end: 2025-02-28
     summary: |
@@ -65,28 +65,28 @@ education:
       text: 'Read Thesis'
       url: 'https://example.com'
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
-    company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - position: 신입 주니어 개발자 입니다!
+    # company_name: GenCoin
+    # company_url: ''
+    # company_logo: ''
+    # date_start: 2021-01-01
+    # date_end: ''
+    # summary: |2-
+    #   Responsibilities include:
+    #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: 보유 기술
     items:
-      - name: TypeScript
+      - name: 타입스크립트
         description: ''
         percent: 80
         icon: code-bracket
-      - name: Node.js
+      - name: 노드.js
         description: ''
         percent: 100
         icon: chart-bar
@@ -98,25 +98,25 @@ skills:
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Game
+      - name: 게임
         description: ''
         percent: 60
         icon: video_game
-      - name: K-pop
+      - name: 케이팝
         description: ''
         percent: 100
         icon: microphone
-      - name: Soccer
+      - name: 축구
         description: ''
         percent: 80
         icon: soccer
 
 languages:
-  - name: English
+  - name: 영어
     percent: 75
-  - name: Korean
+  - name: 한국어
     percent: 100
-  - name: Japanese
+  - name: 일본어
     percent: 10
 
 # Awards.
@@ -124,23 +124,25 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
+  - title: 창업아이디어경진대회
     url: https://www.coursera.org/learn/neural-networks-deep-learning
     date: '2023-11-25'
     awarder: Coursera
     icon: coursera
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
+      - 창업 아이디어 경진 대회에서 창의적인 아이디어로 창업 시뮬레이션
+      - 창업에 대한 전반적인 이해와 리스크 등등
+
+  - title: 산학실전캡스톤경진대회
     url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
+    date: '2024-06-21'
     awarder: edX
     icon: edx
     summary: |
       Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
+      - 산학과제를 통한 개발자 실무 역량 강화
+      - 팀프로젝트로 팀원 간 소통 능력 증진
+      - 산학협력업체와 협업하는 방식, 비개발자의 시선 이해
 
 ---
 

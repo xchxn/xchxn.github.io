@@ -67,15 +67,15 @@ sections:
       view: citation
 
   - block: collection
-    id: talks
+    id: Projects
     content:
-      title: Recent & Upcoming Talks
+      title: My Project
       filters:
         folders:
-          - event
+          - projects
     design:
       view: article-grid
-      columns: 1
+      columns: 3
 
   - block: collection
     id: news

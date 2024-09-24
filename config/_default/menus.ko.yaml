@@ -17,54 +17,54 @@ main:
     url: /contact/
     weight: 10
 
-  - name: Skills
+  - name: 스킬
     url: /#skills
     identifier: skills
     weight: 11
-  - name: Development
+  - name: 개발
     parent: skills
     url: skills/development/
     weight: 11
-  - name: Lifestyle
+  - name: 일상생활
     parent: skills
     url: skills/life/
     weight: 11
 
-  - name: Projects
+  - name: 프로젝트
     url: /#projects
     identifier: projects
     weight: 12
-  - name: Fullstack
+  - name: 풀스택
     parent: projects
     url: projects/fullstack/
     weight: 12
-  - name: Backend
+  - name: 백엔드
     parent: projects
     url: projects/backend/
     weight: 12
 
-  - name: Postings
+  - name: 포스팅
     url: /#postings
     identifier: postings
     weight: 13
-  - name: Study
+  - name: 공부
     parent: postings
     url: postings/study/
     weight: 13
-  - name: Diary
+  - name: 일기
     parent: postings
     url: postings/diary/
     weight: 13
 
-  - name: Others
+  - name: 기타
     url: /#others
     identifier: others
     weight: 14
-  - name: Etc...
+  - name: 등등...
     parent: others
     url: others/etc/
     weight: 14
-  - name: Random
+  - name: 랜덤
     parent: others
     url: others/random/
     weight: 14
