@@ -15,9 +15,9 @@ sections:
       username: admin
       text: ""
       # Show a call-to-action button under your biography? (optional)
-      # button:
-      #   text: Download CV
-      #   url: uploads/resume.pdf
+      button:
+        text: 이력서 보기
+        url: uploads/resume.pdf
     design:
       css_class: dark
       background:
@@ -30,41 +30,42 @@ sections:
           size: cover
           position: center
           parallax: false
+
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: '💻 개발자 정석찬은?'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
-
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        저는 매 순간 더 나은 결과를 위해 노력하는 개발자입니다. 백엔드 개발자로 취업하기를 희망하지만 풀스택 개발을 즐겨합니다.
         
-        Please reach out to collaborate 😃
+        제가 관심있는 분야에서 웹개발을 하는 것이 즐겁습니다.
+
+        채용을 원하신다면 언제든지 연락주세요😄
     design:
       columns: '1'
 
-  - block: collection
-    id: papers
-    content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publication
-        featured_only: true
-    design:
-      view: article-grid
-      columns: 2
+  # - block: collection
+  #   id: papers
+  #   content:
+  #     title: Featured Publications
+  #     filters:
+  #       folders:
+  #         - publication
+  #       featured_only: true
+  #   design:
+  #     view: article-grid
+  #     columns: 2
 
-  - block: collection
-    content:
-      title: Recent Publications
-      text: ""
-      filters:
-        folders:
-          - publication
-        exclude_featured: false
-    design:
-      view: citation
+  # - block: collection
+  #   content:
+  #     title: Recent Publications
+  #     text: ""
+  #     filters:
+  #       folders:
+  #         - publication
+  #       exclude_featured: false
+  #   design:
+  #     view: citation
 
   - block: collection
     id: Projects
@@ -78,9 +79,9 @@ sections:
       columns: 3
 
   - block: collection
-    id: news
+    id: study
     content:
-      title: Recent News
+      title: Recent Study
       subtitle: ''
       text: ''
       # Page type to display. E.g. post, talk, publication...
