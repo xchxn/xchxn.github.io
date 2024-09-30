@@ -21,50 +21,50 @@ main:
     url: /#skills
     identifier: skills
     weight: 11
-  - name: Development
-    parent: skills
-    url: skills/development/
-    weight: 11
-  - name: Lifestyle
-    parent: skills
-    url: skills/life/
-    weight: 11
+  # - name: Development
+  #   parent: skills
+  #   url: skills/development/
+  #   weight: 11
+  # - name: Lifestyle
+  #   parent: skills
+  #   url: skills/life/
+  #   weight: 11
 
   - name: Projects
     url: /#projects
     identifier: projects
     weight: 12
-  - name: Fullstack
-    parent: projects
-    url: projects/fullstack/
-    weight: 12
-  - name: Backend
-    parent: projects
-    url: projects/backend/
-    weight: 12
+  # - name: Fullstack
+  #   parent: projects
+  #   url: projects/fullstack/
+  #   weight: 12
+  # - name: Backend
+  #   parent: projects
+  #   url: projects/backend/
+  #   weight: 12
 
   - name: Postings
     url: /#postings
     identifier: postings
     weight: 13
-  - name: Study
-    parent: postings
-    url: postings/study/
-    weight: 13
-  - name: Diary
-    parent: postings
-    url: postings/diary/
-    weight: 13
+  # - name: Study
+  #   parent: postings
+  #   url: postings/study/
+  #   weight: 13
+  # - name: Diary
+  #   parent: postings
+  #   url: postings/diary/
+  #   weight: 13
 
   - name: Others
     url: /#others
     identifier: others
     weight: 14
-  - name: Etc...
-    parent: others
-    url: others/etc/
-    weight: 14
-  - name: Random
-    parent: others
-    url: others/random/
-    weight: 14
+  # - name: Etc...
+  #   parent: others
+  #   url: others/etc/
+  #   weight: 14
+  # - name: Random
+  #   parent: others
+  #   url: others/random/
+  #   weight: 14
