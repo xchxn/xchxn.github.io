@@ -2,6 +2,7 @@
 title: Postings
 summary: My Postings about study
 type: landing
+view: article-grid
 
 banner:
   image: 'wave.jpg'
