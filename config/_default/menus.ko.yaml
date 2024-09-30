@@ -44,7 +44,7 @@ main:
   #   weight: 12
 
   - name: 포스팅
-    url: /posts
+    url: /postings
     identifier: postings
     weight: 13
   # - name: 공부
