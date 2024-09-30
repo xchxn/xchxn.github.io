@@ -12,9 +12,9 @@ main:
     parent: about
     url: /profile/
     weight: 10
-  - name: 연락
+  - name: 경력
     parent: about
-    url: /contact/
+    url: /experience/
     weight: 10
 
   - name: 스킬

@@ -35,8 +35,8 @@ profiles:
     label: E-mail Me
   # - icon: brands/x
   #   url: https://twitter.com/GetResearchDev
-  # - icon: brands/instagram
-  #   url: https://www.instagram.com/
+  - icon: brands/instagram
+    url: https://www.instagram.com/xeokchan
   - icon: brands/github
     url: https://github.com/xchxn
   # - icon: brands/linkedin
@@ -60,10 +60,12 @@ education:
     date_start: 2019-03-04
     date_end: 2025-02-28
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+      전북대학교 컴퓨터공학계열 전공학과 IT정보공학과('https://csai.jbnu.ac.kr/csai/index.do')에서 공학계열에 필요한 지식과 컴퓨터과학 지식, 개발에 대한 전문적인 역량을 함양하였습니다.
     button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
+      text: 'About Department'
+      url: 'https://csai.jbnu.ac.kr/csai/index.do'
+
+
 work:
   - position: 신입 주니어 개발자 입니다!
     # company_name: GenCoin
@@ -117,7 +119,7 @@ languages:
   - name: 한국어
     percent: 100
   - name: 일본어
-    percent: 10
+    percent: 25
 
 # Awards.
 #   Add/remove as many awards below as you like.
@@ -125,19 +127,19 @@ languages:
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
   - title: 창업아이디어경진대회
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
+    url: https://swuniv.jbnu.ac.kr/main/jbnusw?gc=605XOAS&do=view&sit=bwrite_title&stx=%EC%B0%BD%EC%97%85&bwrite_id=154
     date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
+    awarder: JBNU
+    icon: JBNU
     summary: |
       - 창업 아이디어 경진 대회에서 창의적인 아이디어로 창업 시뮬레이션
       - 창업에 대한 전반적인 이해와 리스크 등등
 
   - title: 산학실전캡스톤경진대회
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
+    url: https://swuniv.jbnu.ac.kr/main/idx
     date: '2024-06-21'
-    awarder: edX
-    icon: edx
+    awarder: JBNU
+    icon: JBNU
     summary: |
       Learned:
       - 산학과제를 통한 개발자 실무 역량 강화
