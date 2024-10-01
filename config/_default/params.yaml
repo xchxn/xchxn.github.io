@@ -12,10 +12,11 @@ appearance:
 marketing:
   seo:
     site_type: Person
-    local_business_type: ''
-    org_name: ''
-    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
+    local_business_type: 'Developer'
+    org_name: 'Jung Seokchan'
+    description: 'Developer portfolio page about Jung Seokchan. 개발자 정석찬의 포트폴리오 사이트입니다. 전북대 정석찬, JBNU JungSeokchan'
     twitter: 'GetResearchDev'
+    sharing: logo.png
   analytics:
     google_analytics: ''
     baidu_tongji: ''

@@ -11,60 +11,28 @@ main:
   - name: 프로필
     parent: about
     url: /profile/
-    weight: 10
+    weight: 11
   - name: 경력
     parent: about
     url: /experience/
-    weight: 10
-
-  - name: 스킬
-    url: /#skills
-    identifier: skills
-    weight: 11
-  # - name: 개발
-  #   parent: skills
-  #   url: skills/development/
-  #   weight: 11
-  # - name: 일상생활
-  #   parent: skills
-  #   url: skills/life/
-  #   weight: 11
+    weight: 12
 
   - name: 프로젝트
     url: /#projects
     identifier: projects
-    weight: 12
-  # - name: 풀스택
-  #   parent: projects
-  #   url: projects/fullstack/
-  #   weight: 12
-  # - name: 백엔드
-  #   parent: projects
-  #   url: projects/backend/
-  #   weight: 12
+    weight: 15
 
   - name: 포스팅
     url: /postings
     identifier: postings
-    weight: 13
-  # - name: 공부
-  #   parent: postings
-  #   url: postings/study/
-  #   weight: 13
-  # - name: 일기
-  #   parent: postings
-  #   url: postings/diary/
-  #   weight: 13
+    weight: 20
+    
+  - name: 스킬
+    url: /#skills
+    identifier: skills
+    weight: 25
 
   - name: 기타
     url: /others
     identifier: others
-    weight: 14
-  # - name: 등등...
-  #   parent: others
-  #   url: others/etc/
-  #   weight: 14
-  # - name: 랜덤
-  #   parent: others
-  #   url: others/random/
-  #   weight: 14
+    weight: 30

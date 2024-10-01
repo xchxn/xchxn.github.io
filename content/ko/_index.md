@@ -24,7 +24,7 @@ sections:
         color: black
         image:
           # Add your image background to `assets/media/`.
-          filename: stacked-peaks.svg
+          filename: wave.jpg
           filters:
             brightness: 1.0
           size: cover
@@ -44,29 +44,6 @@ sections:
     design:
       columns: '1'
 
-  # - block: collection
-  #   id: papers
-  #   content:
-  #     title: Featured Publications
-  #     filters:
-  #       folders:
-  #         - publication
-  #       featured_only: true
-  #   design:
-  #     view: article-grid
-  #     columns: 2
-
-  # - block: collection
-  #   content:
-  #     title: Recent Publications
-  #     text: ""
-  #     filters:
-  #       folders:
-  #         - publication
-  #       exclude_featured: false
-  #   design:
-  #     view: citation
-
   - block: collection
     id: Projects
     content:
@@ -79,32 +56,61 @@ sections:
       columns: 3
 
   - block: collection
-    id: study
+    id: Certificate
     content:
-      title: Recent Study
-      subtitle: ''
-      text: ''
-      # Page type to display. E.g. post, talk, publication...
-      page_type: post
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 5
-      # Filter on criteria
+      title: Certificate
       filters:
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
+        folders:
+          - certificate
     design:
-      # Choose a layout view
-      view: date-title-summary
-      # Reduce spacing
-      spacing:
-        padding: [0, 0, 0, 0]
+      view: article-grid
+      columns: 3
+
+  - block: slider
+    content:
+      slides:
+
+      - title: <span style="font-size:70%">Development</span>
+        content: <span style="font-size:70%">TypeScript, Node.js 기반 프레임워크를 활용한 백엔드, 풀스택 개발<span style="font-size:70%">
+        align: center
+        background:
+          image:
+            filename: Development.jpg
+            filters:
+              brightness: 0.4
+          position: center
+          color: '#000'
+
+      - title: <span style="font-size:70%">Developer</span>
+        content: <span style="font-size:70%">컴퓨터 공학 계열 학사 전공 및 정보처리기사, SQLD 취득</span>
+        align: center
+        background:
+          image:
+            filename: Developer.jpg
+            filters:
+              brightness: 0.4
+          position: center
+          color: '#000'
+
+      - title: <span style="font-size:70%">Metaverse</span>
+        content: <span style="font-size:70%">Web 3.0과 메타버스에 대한 깊은 관심</span>
+        align: center
+        background:
+          image:
+            filename: metaverse.jpg
+            filters:
+              brightness: 0.4
+          position: center
+          color: '#000'
+          
+    design:
+      # Slide height is automatic unless you force a specific height (e.g. '400px')
+      slide_height: '350px'
+      slide_width: '100px'
+      is_fullscreen: false
+      # Automatically transition through slides?
+      loop: true
+      # Duration of transition between slides (in ms)
+      interval: 3000
+
 ---
