@@ -24,7 +24,7 @@ sections:
         color: black
         image:
           # Add your image background to `assets/media/`.
-          filename: profile_bg
+          filename: profile_bg.png
           filters:
             brightness: 1.0
           size: cover
