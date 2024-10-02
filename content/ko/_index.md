@@ -17,7 +17,7 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: 이력서 보기
-        url: uploads/resume.pdf
+        url: uploads/정석찬이력서_JK.pdf
     design:
       css_class: dark
       background:
