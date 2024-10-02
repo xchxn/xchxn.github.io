@@ -10,7 +10,7 @@ main:
     weight: 10
   - name: 프로필
     parent: about
-    url: /profile/
+    url: /
     weight: 11
   - name: 경력
     parent: about
@@ -18,7 +18,7 @@ main:
     weight: 12
 
   - name: 프로젝트
-    url: /#projects
+    url: /projects
     identifier: projects
     weight: 15
 
