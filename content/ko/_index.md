@@ -24,7 +24,7 @@ sections:
         color: black
         image:
           # Add your image background to `assets/media/`.
-          filename: wave.jpg
+          filename: profile_bg
           filters:
             brightness: 1.0
           size: cover
@@ -37,11 +37,11 @@ sections:
       subtitle: ''
       text: |-
         <aside>
-        TypeScript와 Nestjs를 주로 사용하는 백엔드 개발자입니다. TypeORM과 Swagger와 같은 라이브러리를 자주 사용하고, 최근 고속 처리를 위해 Redis를 프로젝트에 적용했습니다.
+        ⚙ TypeScript와 Nestjs를 주로 사용하는 백엔드 개발자입니다. TypeORM과 Swagger와 같은 라이브러리를 자주 사용하고, 최근 고속 처리를 위해 Redis를 프로젝트에 적용했습니다.
         </aside>
 
         <aside>
-        풀스택 프로젝트를 진행해 본 경험으로 프론트엔드에 대한 이해가 뛰어나며, 다른 역할의 구성원들과 긍정적인 협업을 기대할 수 있습니다.
+        🖥 풀스택 프로젝트를 진행해 본 경험으로 프론트엔드에 대한 이해가 뛰어나며, 다른 역할의 구성원들과 긍정적인 협업을 기대할 수 있습니다.
         </aside>
 
         <aside>
@@ -74,7 +74,7 @@ sections:
           - certificate
     design:
       view: article-grid
-      columns: 3
+      columns: 2
 
   # - block: slides
   #   content:
