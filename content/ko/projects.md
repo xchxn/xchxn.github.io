@@ -11,12 +11,12 @@ design:
 # Page sections
 sections:
   - block: collection
-    id: Projects
+    id: Projects_m
     content:
       title: My Projects
       filters:
         folders:
-          - projects
+          - projects_m
     design:
       view: article-grid
       columns: 3
