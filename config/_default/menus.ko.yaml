@@ -38,5 +38,5 @@ main:
     weight: 30
   - name: 수상
     parent: others
-    url: /awards/
+    url: /award/
     weight: 31

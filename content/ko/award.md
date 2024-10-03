@@ -1,5 +1,5 @@
 ---
-title: 'Awards'
+title: 'Award'
 date: 2023-10-24
 type: landing
 
@@ -11,12 +11,12 @@ design:
 # Page sections
 sections:
   - block: collection
-    id: Awards
+    id: Award
     content:
-      title: My Awards
+      title: My Award
       filters:
         folders:
-          - awards
+          - award
     design:
       view: article-grid
       columns: 2
