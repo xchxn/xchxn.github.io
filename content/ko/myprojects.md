@@ -1,5 +1,5 @@
 ---
-title: 'Projects'
+title: 'MyProjects'
 date: 2023-10-24
 type: landing
 
@@ -11,7 +11,7 @@ design:
 # Page sections
 sections:
   - block: collection
-    id: Projects
+    id: MyProjects
     content:
       title: My Projects
       filters:
