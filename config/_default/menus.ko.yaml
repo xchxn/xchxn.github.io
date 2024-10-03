@@ -36,3 +36,7 @@ main:
     url: /others
     identifier: others
     weight: 30
+  - name: 수상
+    parent: others
+    url: /awards/
+    weight: 31
