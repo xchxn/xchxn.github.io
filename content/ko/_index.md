@@ -55,9 +55,9 @@ sections:
       columns: '1'
 
   - block: collection
-    id: Projects
+    id: Profile_Projects
     content:
-      title: My Project
+      title: Profile Projects
       filters:
         folders:
           - projects
