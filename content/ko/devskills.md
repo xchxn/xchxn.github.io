@@ -1,5 +1,5 @@
 ---
-title: 'SKills'
+title: 'Skills'
 date: 2023-10-24
 type: landing
 

@@ -28,7 +28,7 @@ main:
     weight: 20
     
   - name: 스킬
-    url: /skills
+    url: /devskills
     identifier: skills
     weight: 25
 
@@ -38,5 +38,5 @@ main:
     weight: 30
   - name: 수상
     parent: others
-    url: /award/
+    url: /awards/
     weight: 31
