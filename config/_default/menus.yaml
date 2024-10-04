@@ -10,61 +10,34 @@ main:
     weight: 10
   - name: Profile
     parent: about
-    url: /profile/
-    weight: 10
-  - name: Contact
-    parent: about
-    url: /contact/
-    weight: 10
-
-  - name: Skills
-    url: /#skills
-    identifier: skills
+    url: /
     weight: 11
-  # - name: Development
-  #   parent: skills
-  #   url: skills/development/
-  #   weight: 11
-  # - name: Lifestyle
-  #   parent: skills
-  #   url: skills/life/
-  #   weight: 11
+  - name: Experience
+    parent: about
+    url: /experience/
+    weight: 12
 
   - name: Projects
-    url: /#projects
+    url: /myprojects
     identifier: projects
-    weight: 12
-  # - name: Fullstack
-  #   parent: projects
-  #   url: projects/fullstack/
-  #   weight: 12
-  # - name: Backend
-  #   parent: projects
-  #   url: projects/backend/
-  #   weight: 12
+    weight: 15
 
   - name: Postings
-    url: /#postings
+    url: /postings
     identifier: postings
-    weight: 13
-  # - name: Study
-  #   parent: postings
-  #   url: postings/study/
-  #   weight: 13
-  # - name: Diary
-  #   parent: postings
-  #   url: postings/diary/
-  #   weight: 13
+    weight: 20
+
+  - name: Skills
+    url: /devskills
+    identifier: skills
+    weight: 25
+
 
   - name: Others
-    url: /#others
+    url: /others
     identifier: others
-    weight: 14
-  # - name: Etc...
-  #   parent: others
-  #   url: others/etc/
-  #   weight: 14
-  # - name: Random
-  #   parent: others
-  #   url: others/random/
-  #   weight: 14
+    weight: 30
+  - name: Awards
+    parent: others
+    url: /awards/
+    weight: 31
