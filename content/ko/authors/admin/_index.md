@@ -126,7 +126,7 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: 창업아이디어경진대회
+  - title: SW창업아이디어경진대회
     url: https://swuniv.jbnu.ac.kr/main/jbnusw?gc=605XOAS&do=view&sit=bwrite_title&stx=%EC%B0%BD%EC%97%85&bwrite_id=154
     date: '2023-11-25'
     awarder: JBNU

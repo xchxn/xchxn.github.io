@@ -24,7 +24,7 @@ role: Web Developer
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: JBNU
+  - name: JeonBil National University
     url: https://csai.jbnu.ac.kr/
 
 # Social network links
@@ -35,8 +35,8 @@ profiles:
     label: E-mail Me
   # - icon: brands/x
   #   url: https://twitter.com/GetResearchDev
-  # - icon: brands/instagram
-  #   url: https://www.instagram.com/
+  - icon: brands/instagram
+    url: https://www.instagram.com/xeokchan
   - icon: brands/github
     url: https://github.com/xchxn
   # - icon: brands/linkedin
@@ -60,22 +60,12 @@ education:
     date_start: 2019-03-04
     date_end: 2025-02-28
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+      I developed expertise in both engineering-related knowledge and computer science, as well as professional skills in software development, through my studies in the IT Information Engineering Department at Jeonbuk National University (https://csai.jbnu.ac.kr/csai/index.do).
     button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
+      text: 'About Department'
+      url: 'https://csai.jbnu.ac.kr/csai/index.do'
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
-    company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - position: I'm junior developer.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -124,26 +114,28 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
+  - title: Software Startup Idea Competition
+    url: https://swuniv.jbnu.ac.kr/main/jbnusw?gc=605XOAS&do=view&sit=bwrite_title&stx=%EC%B0%BD%EC%97%85&bwrite_id=154
     date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
+    awarder: JBNU
+    icon: JBNU
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
+      - Conducted a startup simulation with creative ideas in a Startup Idea Competition.
+      - Gained comprehensive understanding of entrepreneurship, including risks and other aspects.
+
+  - title: Industry-Academia Practical Capstone Competition
+    url: https://swuniv.jbnu.ac.kr/main/idx
+    date: '2024-06-21'
+    awarder: JBNU
+    icon: JBNU
     summary: |
       Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
+      - Strengthened practical development skills through industry-academia collaborative projects.
+      - Enhanced communication skills among team members through team projects.
+      - Learned to collaborate with industry partners and understand the perspectives of non-developers.
 
 ---
 
 ## About Me
 
-전북대학교 IT정보공학과 졸업예정, 백엔드 개발자를 지망하는 학생 정석찬입니다.
+I am Seokchan Jung, a soon-to-be graduate of IT Information Engineering at Jeonbuk National University, aspiring to become a backend developer.
