@@ -28,7 +28,7 @@ main:
     weight: 20
     
   - name: 스킬
-    url: /#skills
+    url: /skills
     identifier: skills
     weight: 25
 
