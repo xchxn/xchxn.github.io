@@ -33,24 +33,16 @@ sections:
 
   - block: markdown
     content:
-      title: '💻 개발자 정석찬'
+      title: '💻 Junior Developer Jung Seokchan'
       subtitle: ''
       text: |-
-        <aside>
-        ⚙ TypeScript와 Nestjs를 주로 사용하는 백엔드 개발자입니다. TypeORM과 Swagger와 같은 라이브러리를 자주 사용하고, 최근 고속 처리를 위해 Redis를 프로젝트에 적용했습니다.
-        </aside>
+        ⚙ I am a backend developer primarily using TypeScript and NestJS. I frequently work with libraries like TypeORM and Swagger, and I have recently implemented Redis in my projects for faster processing.
 
-        <aside>
-        🖥 풀스택 프로젝트를 진행해 본 경험으로 프론트엔드에 대한 이해가 뛰어나며, 다른 역할의 구성원들과 긍정적인 협업을 기대할 수 있습니다.
-        </aside>
+        🖥 With experience in full-stack projects, I have a solid understanding of frontend development and can collaborate effectively with members in other roles, fostering positive teamwork.
 
-        <aside>
-        🔃 애자일 프로세스의 진행에 능숙합니다! 짧은 기간 반복적인 스프린트와 스크럼에도 지치지 않는 체력을 가지고 있으며 구성원과의 원활한 소통이 가능합니다.
-        </aside>
+        🔃 I am proficient in managing Agile processes! I have the stamina to handle short, repetitive sprints and scrums without fatigue, and I can communicate smoothly with team members.
 
-        <aside>
-        🔥 주어진 일에 몰입하는 것을 잘하고 좋아합니다! 늘 어떻게 해야 최선의 결과를 도출할 수 있는지를 잠들기 전까지 고민하고 스스로 끝맺음을 할 수 있습니다.
-        </aside>
+        🔥 I am highly focused and passionate about immersing myself in the tasks given! I constantly think about how to achieve the best results, even before going to sleep, and I am capable of finishing tasks independently.
     design:
       columns: '1'
 
