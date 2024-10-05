@@ -1,5 +1,5 @@
 ---
-title: 빅데이터기반인공지능재고관리
+title: Big Data-Based AI Inventory Management
 date: 2024-06-21
 external_link: https://github.com/xchxn/SFM
 tags:

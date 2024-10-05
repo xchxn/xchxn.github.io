@@ -1,5 +1,5 @@
 ---
-title: 오브젝트 교환 커뮤니티
+title: Objekt trade community
 date: 2023-10-26
 external_link: https://github.com/xchxn/OTP
 tags:

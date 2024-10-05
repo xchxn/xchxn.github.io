@@ -1,5 +1,5 @@
 ---
-title: 정보처리기사
+title: Engineer Information Processing
 date: 2024-06-21
 external_link: https://www.q-net.or.kr/crf005.do?id=crf00503&jmCd=1320
 tags:

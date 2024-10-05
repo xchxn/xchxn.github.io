@@ -1,5 +1,5 @@
 ---
-title: SQL개발자
+title: SQLD
 date: 2023-12-15
 external_link: https://www.dataq.or.kr/www/sub/a_04.do
 tags:

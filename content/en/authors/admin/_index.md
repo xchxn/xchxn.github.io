@@ -24,7 +24,7 @@ role: Web Developer
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: JeonBil National University
+  - name: Jeonbuk National University
     url: https://csai.jbnu.ac.kr/
 
 # Social network links
