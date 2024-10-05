@@ -1,18 +1,17 @@
 ---
-title: 산학실전캡스톤경진대회
+title: Industry-Academia Practical Capstone Competition
 date: 2024-06-21
 external_link: 
 button:
-  text: 상장보기
+  text: View Certificate
   url: uploads/캡스톤디자인_CoD_상장.pdf
 tags:
-  - 산학과제
-  - 팀프로젝트
-  - 캡스톤디자인
+  - Industry-Academia Practical
+  - Team Project
+  - Practical Capstone Design
 
 ---
-
-산학과제를 통한 개발자 실무 역량 강화
-팀프로젝트로 팀원 간 소통 능력 증진
-산학협력업체와 협업하는 방식, 비개발자의 시선 이해
+- Strengthened practical development skills through industry-academia collaborative projects.
+- Enhanced communication skills among team members through team projects.
+- Learned to collaborate with industry partners and understand the perspectives of non-developers.
 <!--more-->

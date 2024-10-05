@@ -3,9 +3,10 @@ title: NestJs
 date: 2024-06-21
 external_link: https://docs.nestjs.com/
 tags:
-  - 백엔드 개발
+  - Backend Dev
   - Nestjs
 ---
 
-Nestjs를 활용하여 서버 통신 및 API 제작
+Server communication and API development using NestJS.
+
 <!--more-->
